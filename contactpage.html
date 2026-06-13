@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan's Contact Page</title>
+    <link rel="stylesheet" href="sites.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+
+    <navbar>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="game.html">Games</a></li>
+        <li><a href="contactpage.html">Contact Us</a></li>
+      </ul>
+    </navbar>
+
+    <div class="contact-container">
+      <h2>Fill Information Below:</h2>
+
+      <form id="contactForm" onsubmit="validateAndSubmit(); return false;">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; COPYRIGHT OF GOMES FOUNDATION ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script src="contactpage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan's Game Website</title>
+    <link rel="stylesheet" href="sites.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fun Games!</h1>
+    </header>
+
+    <navbar>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="game.html">Games</a></li>
+        <li><a href="contactpage.html">Contact Us</a></li>
+      </ul>
+    </navbar>
+
+    <div class="game-container">
+      <h2 class="game-title">
+        Let's play Rock, Paper, Scissors!!
+        <img
+          src="https://www.science.org/do/10.1126/science.aac4663/abs/sn-rockpaper.jpg"
+          alt="Rock Paper Scissors Picture"
+          class="title-icon"
+        />
+      </h2>
+
+      <form id="gameForm" onsubmit="playGame(); return false;">
+        <label>Pick wisely...</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="choice" value="Rock" required />
+            Rock
+          </label>
+          <label>
+            <input type="radio" name="choice" value="Paper" />
+            Paper
+          </label>
+          <label>
+            <input type="radio" name="choice" value="Scissors" />
+            Scissors
+          </label>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+
+      <div class="results">
+        <div class="result-box left">
+          <h3>You Chose:</h3>
+          <p id="humanChoice">-</p>
+        </div>
+
+        <div class="result-box right">
+          <h3>Computer Chose:</h3>
+          <p id="computerChoice">-</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Game legend">
+      <h4>Legend:</h4>
+      <ul>
+        <li><span class="legend-box win"></span> Win (Green)</li>
+        <li><span class="legend-box tie"></span> Tie (Yellow)</li>
+        <li><span class="legend-box lose"></span> Lose (Red)</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; COPYRIGHT OF GOMES FOUNDATION ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="thegame.js"></script>
+  </body>
+</html>
