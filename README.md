@@ -1,7 +1,7 @@
 <h1>Personal Website & Interactive Game Project</h1>
 
 <h2>Description</h2>
-Project consists of a multi-page website built using HTML, CSS, and JavaScript. The website includes a homepage with personal information and social media links, an interactive Rock-Paper-Scissors game, a contact form with input validation, and a success page that automatically redirects users back to the homepage. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Project consists of a multi-page website built using HTML, CSS, and JavaScript. The website includes a homepage with personal information and social media links, an interactive Rock-Paper-Scissors game, a contact form with input validation, and a success page that automatically redirects users back to the homepage.
 
 <br />
 
