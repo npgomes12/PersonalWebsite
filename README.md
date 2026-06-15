@@ -31,33 +31,19 @@ Project consists of a multi-page website built using HTML, CSS, and JavaScript. 
 
 <p align="center">
 Homepage: <br/>
-<img src="YOUR_HOMEPAGE_SCREENSHOT" height="80%" width="80%" alt="Homepage"/>
-<br /><br />
-
-Navigate Through Website: <br/>
-<img src="YOUR_NAVIGATION_SCREENSHOT" height="80%" width="80%" alt="Navigation"/>
+<img src="https://i.imgur.com/gcBbNCr.png" height="80%" width="80%" alt="Homepage"/>
 <br /><br />
 
 Play Rock Paper Scissors: <br/>
-<img src="YOUR_GAME_SCREENSHOT" height="80%" width="80%" alt="Game Page"/>
+<img src="https://i.imgur.com/fwIA48g.png" height="80%" width="80%" alt="Game Page"/>
 <br /><br />
 
-Choose Rock, Paper, or Scissors: <br/>
-<img src="YOUR_GAME_SELECTION_SCREENSHOT" height="80%" width="80%" alt="Game Selection"/>
-<br /><br />
-
-View Game Results: <br/>
-<img src="YOUR_GAME_RESULT_SCREENSHOT" height="80%" width="80%" alt="Game Results"/>
-<br /><br />
 
 Submit Contact Form: <br/>
-<img src="YOUR_CONTACT_FORM_SCREENSHOT" height="80%" width="80%" alt="Contact Form"/>
+<img src="https://i.imgur.com/CPub4TU.png" height="80%" width="80%" alt="Contact Form"/>
 <br /><br />
 
-Form Validation: <br/>
-<img src="YOUR_VALIDATION_SCREENSHOT" height="80%" width="80%" alt="Validation"/>
-<br /><br />
 
 Successful Submission Page: <br/>
-<img src="YOUR_SUCCESS_SCREENSHOT" height="80%" width="80%" alt="Success Page"/>
+<img src="https://i.imgur.com/6fhAJVg.png" height="80%" width="80%" alt="Success Page"/>
 </p>
